@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<<meta charset="utf-8">
+	<title>Formulário Banda</title>
+  <link rel='stylesheet'    
+          type='text/css'
+          href='estiloEntrada.css'>
+</head>
+<body>
+
+<h1> Cadastro dos Integrantes</h1>
+
+<form action="saida.php" method="post">
+	
+
+<label for="NomeBanda">
+<strong>Nome da Banda:</strong>
+</label>
+<input type="Text" name="NomeBanda" id="NomeBanda" autofocus="true">
+
+<label for="linkImagem">
+<strong><em> Link</em> para Imagem</strong>
+</label>
+<input type="Text" name="linkImagem" id="linkImagem">
+
+<label for="Nome1integrante">
+<strong>Nome do Integrante 1</strong> 
+</label>
+<input type="text" name="Nome1integrante" id="Nome1integrante"> 
+
+<label for="Data1integrante">
+<strong>Data de Nascimento do Integrante 1</strong> 
+</label> 
+<input type="date" name="Data1integrante" id="Data1integrante">
+
+<label for="integrante1Instrumento">
+<strong>Instrumento do Integrante 1</strong>
+</label> 
+<input type="text" name="Instrumento1integrante" id="Instrumento1integrante">   
+
+			<label for="Nome2integrante">
+			<strong>Nome do Integrante 2</strong> 
+			</label>
+			<input type="text" name="Nome2integrante" id="Nome2integrante"> 
+
+			<label for="Data2integrante">
+			<strong>Data de Nascimento do Integrante 2</strong> 
+			</label> 
+			<input type="date" name="Data2integrante" id="Data2integrante">
+
+			<label for="integrante2Instrumento">
+			<strong>Instrumento do Integrante 2</strong>
+			</label> 
+			<input type="text" name="Instrumento2integrante" id="Instrumento2integrante">   
+
+			            <label for="Nome3integrante">
+						<strong>Nome do Integrante 3</strong> 
+						</label>
+						<input type="text" name="Nome3integrante" id="Nome3integrante"> 
+
+						<label for="Data3integrante">
+						<strong>Data de Nascimento do Integrante 3</strong> 
+						</label> 
+						<input type="date" name="Data3integrante" id="Data3integrante">
+
+						<label for="Instrumento3integrante">
+						<strong>Instrumento do Integrante 3</strong>
+						</label> 
+						<input type="text" name="Instrumento3integrante" id="Instrumento3integrante">   
+
+            <label for='biografiaBanda'>
+        Biografia da banda:
+      </label>
+
+      <textarea rows="20"
+                cols="80"
+                name="biografiaBanda" 
+                id="biografiaBanda">      
+      </textarea> 
+            
+
+      <label for='corFundo'>
+        Cor de fundo da página:
+      </label> 
+
+      <select name="corFundo" id="corFundo">
+        <option value="blue">Azul</option>
+        <option value="yellow">Amarelo</option>
+        <option value="white">Branco</option>
+        <option value="black" selected="true">Preto</option>
+        <option value="green">Verde</option>
+        <option value="red">Vermelho</option> 
+      </select> 
+
+      <label for='corTexto'>
+        Cor do texto da página:
+      </label> 
+
+      <select name="corTexto" id="corTexto">
+        <option value="blue">Azul</option>
+        <option value="yellow" selected="true">Amarelo</option>
+        <option value="white">Branco</option>
+        <option value="black">Preto</option>
+        <option value="green">Verde</option>
+        <option value="red">Vermelho</option>
+      </select> 
+
+      <input type="submit" value="Gerar página">     
+
+
+
+
+
+</body>
+</html>

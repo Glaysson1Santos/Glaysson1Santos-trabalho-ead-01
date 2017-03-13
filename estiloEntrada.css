@@ -1,0 +1,11 @@
+﻿label, input, select, textarea {
+  display : block;
+}
+
+input, select, textarea {
+  margin-bottom : 20px;
+}
+
+input {  
+  width : 300px;
+}
